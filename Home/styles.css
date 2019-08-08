@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 50px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+#header .name {
+    height: 50px;
+    width: 300px;
+    background-color: blue;
+    float: left;
+}
+
+#header .navebar {
+    height: 50px;
+    width: 800px;
+    background-color: aqua;
+    float: right;
+}
+
+#header .navebar li {
+    display: inline-block;
+    width: 150px;
+}
+
+#section {
+    height: 800px;
+    background-color: aquamarine;
+}
+
+#section .left,#section .right {
+    float: left;
+}
+
+#section .left {
+    height:700px;
+    width: 400px;
+    background-color: brown;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#section .left .one {
+    height: 300px;
+    margin-top: 50px;
+    background-color: red;
+}
+
+#section .left .two {
+    height: 300px;
+    background-color: blue;
+}
+
+#section .right {
+    height: 700px;
+    width: 800px;
+    background-color: blueviolet;
+}
+
+.right .box1,.right .box2 {
+    float: left;
+}
+
+#section .right .three {
+    width: 400px;
+    height: 300px;
+    background-color: burlywood;
+}
+
+#section .right .five {
+    width: 400px;
+    height: 400px;
+    background-color: seagreen;
+    clear: left;
+}
+
+#section .right .four {
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+}
+
+#section .right .six {
+    width: 400px;
+    height: 300px;
+    background-color: skyblue;
+} 
